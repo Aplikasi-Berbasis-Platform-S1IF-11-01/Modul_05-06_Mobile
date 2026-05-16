@@ -46,3 +46,4 @@
 # 7. File Log & Crash
 **/*.log
 **/flutter_*.png
+"*.hprof" 
