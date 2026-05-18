@@ -1,12 +1,9 @@
 
 
 <div align="center">
+    <h1>LAPORAN PRAKTIKUM <br>APLIKASI BERBASIS PLATFORM</h1>
   <br />
-  <h1>LAPORAN PRAKTIKUM <br>WEB MANAGEMENT PRODUCT
-</h1>
-  <br />
-  <h3>MODUL 03-04 - Mobile
- <br> Pengenalan Flutter</h3>
+  <h3>MODUL 05-06 - Mobile <br> Flutter  </h3>
   <br />
   <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-vb7jyBjK-sM%2FXXfKp51LrjI%2FAAAAAAAACts%2FEjcXzlgZwSswNWXsBHMyX-6aav1mjA77QCPcBGAYYCw%2Fs1600%2FLogo_Telkom_University_potrait.png&f=1&nofb=1&ipt=9d030d54102ea96369d39fe491220e0536195abc8ee443279c1a420302206400" alt="Logo Telkom" width="300"> 
   <br /><br /><br />
