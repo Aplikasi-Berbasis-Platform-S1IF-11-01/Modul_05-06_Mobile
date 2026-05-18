@@ -123,4 +123,4 @@ Isi dari Column terdiri dari dua buah TextField yang berfungsi sebagai kolom inp
 
 - Flutter Docs: [https://docs.flutter.dev](https://docs.flutter.dev)
 - Dart: [https://dart.dev](https://dart.dev)
-- Modul:[https://telkomuniversityofficial-my.sharepoint.com/:b:/g/personal/dimasfhp_telkomuniversity_ac_id/IQAzpAVjVmeTRYI3rgKxGZE7AcpC_xRo2dpbh8ZyHd3c1lQ?e=pZRgq9]
+- Modul: [https://telkomuniversityofficial-my.sharepoint.com/:b:/g/personal/dimasfhp_telkomuniversity_ac_id/IQAzpAVjVmeTRYI3rgKxGZE7AcpC_xRo2dpbh8ZyHd3c1lQ?e=pZRgq9]
