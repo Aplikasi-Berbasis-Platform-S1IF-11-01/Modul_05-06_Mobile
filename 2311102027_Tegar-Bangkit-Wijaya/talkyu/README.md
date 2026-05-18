@@ -4,7 +4,7 @@
   <br />
   <h3>MODUL 05-06 - Mobile <br> Flutter  </h3>
   <br />
-  <img src="assets\logo_telkom.jpeg" alt="Logo" width="300"> 
+  <img src="screenshot/logo_telkom.png" alt="Logo" width="300"> 
   <br />
   <br />
   <br />
@@ -42,13 +42,12 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Talkyu',
       theme: ThemeData(
-        colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 58, 60, 183)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 58, 60, 183)),
       ),
       home: const MyHomePage(title: 'Talkyu'),
       debugShowCheckedModeBanner: false,
@@ -213,7 +212,7 @@ Menggunakan `StatefulWidget.`
 
 Artinya halaman:
 - dapat berubah
-- `dapat menyimpan data/state
+- dapat menyimpan data/state
 
 ### 14. Constructor
 ```dart
@@ -321,4 +320,4 @@ Memberikan border kotak pada TextField.
 
 ---
 ## 2. Hasil
-<img src="assets/hasil.png" alt="Logo" width="600">
+<img src="screenshot/ss_talkyu.jpeg" alt="Hasil" width="600">
