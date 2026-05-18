@@ -39,8 +39,6 @@
 
 ## 1. Dasar Teori
 
-Dasar Teori
-
 Flutter merupakan framework yang digunakan untuk membangun aplikasi mobile dengan bahasa pemrograman Dart. Dalam Flutter, tampilan aplikasi dibentuk menggunakan konsep widget, yaitu komponen penyusun antarmuka seperti teks, input, tombol, layout, dan elemen lainnya. Setiap widget dapat disusun menjadi struktur yang disebut widget tree, sehingga tampilan aplikasi dapat dibuat secara teratur dan fleksibel. Pada modul praktikum, Flutter dijelaskan sebagai framework yang menggunakan widget sebagai dasar pembentukan antarmuka pengguna.  ￼
 
 Pada program ini, aplikasi dibuat menggunakan MaterialApp sebagai kerangka utama aplikasi dan Scaffold sebagai struktur dasar halaman. Widget MaterialApp digunakan untuk mengatur konfigurasi aplikasi seperti judul, tema warna, dan halaman utama, sedangkan Scaffold digunakan sebagai wadah tampilan utama. Di dalam Scaffold, terdapat widget Column yang berfungsi untuk menyusun elemen secara vertikal dari atas ke bawah. Penggunaan Column termasuk bagian dari konsep layout Flutter yang digunakan untuk mengatur posisi komponen dalam antarmuka aplikasi.
