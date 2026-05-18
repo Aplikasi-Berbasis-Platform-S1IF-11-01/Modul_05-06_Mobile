@@ -5,7 +5,7 @@
   <h2>MODUL 05-06 FLUTTER 
   <br /><br />
 
-  <img src="gabar.png" alt="Logo" width="300">
+  <img src="assets/logo.png" alt="Logo" width="300">
 
   <br /><br /><br />
 
@@ -332,6 +332,8 @@ class _MyHomePageState extends State<MyHomePage> {
 ---
 
 ## 6. Hasil Praktikum
+
+<img src="assets/gambar.png" alt="Logo" width="300">
 
 Setelah kode dijalankan, aplikasi menampilkan halaman dengan struktur berikut:
 
