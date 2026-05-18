@@ -5,7 +5,7 @@
   <h3>MODUL 5 & 6 <br> FONT & TEXTFIELD</h3>
   <br />
   <br />
-  <img src="assets/Logo_Telkom.jpeg" alt="Logo" width="300">
+  <img src="assets/Logo_Telkom.png" alt="Logo" width="300">
   <br />
   <br />
   <br />
