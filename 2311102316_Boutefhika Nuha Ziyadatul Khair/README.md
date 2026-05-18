@@ -8,7 +8,7 @@
   <br />
 
   <h3>MODUL 5 & 6 <br>
-  MOBILE
+  Antarmuka Pengguna Lanjutan & Interaksi Pengguna
   </h3>
 
   <br />
