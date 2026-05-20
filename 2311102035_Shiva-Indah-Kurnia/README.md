@@ -4,14 +4,14 @@
   <br />
   <h3> Modul 05-06 Mobile <br> TEXTFIELD </h3>
   <br />
-  <img src="assets/logo.png" alt="Logo" width="300"> 
+  <img src="assets/TU.jpg" alt="Logo" width="300"> 
   <br />
   <br />
   <br />
   <h3>Disusun Oleh :</h3>
   <p>
-    <strong>Kanasya Abdi Aziz</strong><br>
-    <strong>2311102140</strong><br>
+    <strong>Shiva Indah Kurnia</strong><br>
+    <strong>2311102035</strong><br>
     <strong>S1 IF-11-01</strong>
   </p>
   <br />
@@ -149,8 +149,7 @@ class _MyHomePageState extends State<MyHomePage> {
 ![Tampilan](assets/1.png)
 
 ## 4. Penjelasan dan Kesimpulan
-Kode di atas adalah aplikasi Flutter sederhana bernama "Talkyu" yang memodifikasi struktur default (aplikasi counter) dengan menambahkan dua kolom input teks. Secara struktural, aplikasi ini dibagi menjadi dua bagian utama, yaitu komponen tanpa perubahan status (StatelessWidget) dan komponen dengan perubahan status (StatefulWidget). Bagian awal kode mendefinisikan fungsi main() sebagai titik masuk aplikasi untuk menjalankan MyApp, sebuah StatelessWidget yang berfungsi mengatur konfigurasi global seperti judul aplikasi dan tema visual berbasis Material 3 dengan warna dasar ungu tua (Colors.deepPurple). Halaman utama aplikasi kemudian diarahkan ke kelas MyHomePage.
-
-Halaman MyHomePage dirancang menggunakan StatefulWidget karena memiliki data dinamis yang nilainya dapat berubah secara real-time, yaitu variabel _counter. Di dalam fungsi penciptaan tampilannya (build method), halaman ini menggunakan struktur dasar Scaffold yang menyediakan komponen area atas (AppBar) untuk menampilkan judul aplikasi dan tombol melayang (FloatingActionButton) di sudut kanan bawah. Ketika tombol plus tersebut ditekan, ia akan memicu fungsi _incrementCounter yang di dalamnya terdapat metode setState(). Fungsi inilah yang bertugas memberi tahu kerangka kerja Flutter untuk memperbarui nilai variabel _counter sekaligus menggambar ulang layar agar perubahan angka terbaru langsung terlihat oleh pengguna.
-
-Untuk tata letak konten utamanya, aplikasi ini menyusun elemen secara vertikal menggunakan widget Column. Pada bagian atas layar, terdapat dua bidang pengisian teks (TextField) yang masing-masing dibungkus dengan widget Padding agar memiliki jarak renggang di sisi-sisinya. Kedua kolom input ini memiliki teks petunjuk placeholder berupa "Masukkan" dan "Namaaa" dengan bingkai luar berbentuk kotak. Tepat di bawah kedua input tersebut, terdapat widget Expanded yang diisi oleh Column lain di dalamnya. Kombinasi ini berfungsi untuk mengambil sisa ruang kosong yang tersedia di layar dan memosisikan teks petunjuk beserta angka penghitung (_counter) agar tampil tepat di tengah-tengah area bawah aplikasi.
+Aplikasi Flutter bernama "Talkyu" ini merupakan hasil modifikasi dari template counter bawaan Flutter, dengan tambahan dua kolom input teks. Secara keseluruhan, aplikasi terbagi menjadi dua jenis komponen utama, yakni komponen statis (StatelessWidget) dan komponen dinamis (StatefulWidget).
+Pada bagian awal, fungsi main() berperan sebagai pintu masuk aplikasi yang menjalankan kelas MyApp. Kelas ini bersifat statis dan hanya bertanggung jawab atas pengaturan umum seperti nama aplikasi serta tampilan visual menggunakan Material 3 dengan palet warna ungu tua. Dari sini, pengguna diarahkan ke halaman utama melalui kelas MyHomePage.
+MyHomePage menggunakan StatefulWidget karena terdapat data yang bisa berubah sewaktu-waktu, yaitu variabel penghitung _counter. Tampilan halaman ini dibangun menggunakan Scaffold sebagai kerangka dasar yang menyertakan AppBar di bagian atas dan FloatingActionButton di pojok kanan bawah. Setiap kali tombol tersebut ditekan, fungsi _incrementCounter dipanggil dan di dalamnya terdapat setState() yang memberitahu Flutter untuk memperbarui nilai _counter sekaligus merender ulang tampilan secara otomatis.
+Untuk susunan konten utamanya, elemen-elemen disusun secara vertikal menggunakan Column. Di bagian atas terdapat dua TextField yang masing-masing diberi jarak menggunakan Padding, dengan placeholder "Masukkan" dan "Namaaa" serta tampilan border kotak. Di bawahnya, widget Expanded digunakan bersama Column kedua untuk memanfaatkan sisa ruang layar, sekaligus memposisikan teks petunjuk dan angka _counter agar tampil di tengah area bawah aplikasi.
